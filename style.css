@@ -1,0 +1,39 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    background-color: #353535;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: gray;
+    position: sticky;
+    padding: 10%;
+    display: flex;
+
+}
+
+.sidebar {
+    background-color: gray;
+    flex: 1 1 20%;
+    min-width: 300px;
+    padding: 3em;
+}
+
+/* ===================
+    Main Content area
+   =================== */
+
+.main-content {
+    flex: 1 1 80%;
+    min-height: 100vh;
+    padding: 10%;
+}
