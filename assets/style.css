@@ -141,16 +141,16 @@ header nav ul li a:hover {
 
 .mainContent {
     flex: 1 1 80%;
-    /* display: flex; */
+    display: flex;
 
 }
 
 .projects {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row; 
     flex-wrap: wrap; */
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     /* margin:0 auto; */
 }
 
@@ -158,8 +158,8 @@ header nav ul li a:hover {
     background-image: url('https://images.unsplash.com/photo-1431578500526-4d9613015464?q=80&fm=jpg&s=169b4f4e6f3882a03b6b93b2e6848052');
     background-size: cover;
     background-position: center center;
-    min-height: 400px;
-    min-width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -177,8 +177,8 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
-    min-height: 400px;
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .item-info h2 {
